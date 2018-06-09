@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-FILE_NAME="boop.txt"
+FILE_NAME=`date "+%Y-%m-%d.txt"`
 FILE_PATH=${1:-$PWD}
 
 mkdir -p $FILE_PATH
