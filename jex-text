@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+FILE_NAME="boop.txt"
+FILE_PATH=${1:-$PWD}
+
+mkdir -p $FILE_PATH
+touch $FILE_PATH/$FILE_NAME
+echo "$FILE_PATH/$FILE_NAME created"
