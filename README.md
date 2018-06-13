@@ -9,3 +9,9 @@ blogging pleasure.
 jext-text ./blogs
 # ./blogs/2018-01-28.txt created
 ```
+
+## Installation
+
+```
+ln -s $PWD/jex-text /usr/local/bin/jex-text
+```
