@@ -9,3 +9,6 @@ blogging pleasure.
 jext-text ./blogs
 # ./blogs/2018-01-28.txt created
 ```
+
+If the file already exists, it won't hurt anything.  If it directories need to
+be created, they will be.
