@@ -12,3 +12,9 @@ jext-text ./blogs
 
 If the file already exists, it won't hurt anything.  If it directories need to
 be created, they will be.
+
+## Installation
+
+```
+ln -s $PWD/jex-text /usr/local/bin/jex-text
+```
